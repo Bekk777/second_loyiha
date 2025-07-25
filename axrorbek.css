@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    background-color: #FFF7F5;
+}
+
+header ul {
+    display: flex;
+    gap: 60px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header button {
+    width: 140px;
+    height: 43px;
+    border: 2px solid #FD590C;
+    border-radius: 5px;
+    color: white;
+    background-color: #FD590C;
+    transition: 0.5s ease all;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: #FFF7F5;
+    color: #FD590C;
+}
+
+nav {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF7F5;
+    position: relative;
+    background-image: url(./AxrorbekImg/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: 760px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 0px 0px 7%
+}
+
+nav em {
+    color: #FD590C;
+    font-size: 40px;
+}
+
+nav h1 {
+    font-size: 55px;
+    width: 30%;
+}
+
+nav p {
+    font-size: 18px;
+    width: 20%;
+}
+
+.nav-btn-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 19px;
+}
+
+.nav-btn-container button:nth-child(1) {
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FD590C;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-btn-container button:nth-child(2) {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    background-color: #00A699;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bottom {
+    margin-top: 30px;
+    display: flex;
+    width: 92.5%;
+    height: 110px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.nav-bottom select {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: gray;
+}
+
+.nav-bottom div {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-bottom div img {
+    width: 17px;
+    height: 17px;
+}
+
+.nav-bottom div span {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.nav-bottom button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #FD590C;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+.Banner {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner h1 {
+    font-weight: normal;
+    font-size: 45px;
+}
+
+.Banner p {
+    font-size: 17px;
+}
+
+.Banner-Main {
+    display: flex;
+    gap: 35px;
+}
+
+.Banner-Main div {
+    width: 300px;
+    height: 270px;
+    background-color: #FFF7F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.Hotel {
+    background-image: url(./AxrorbekImg/Hotel\ rooms\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 17px;
+}
+
+.Hotel h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+
+}
+
+.line {
+    width: 130px;
+    height: 5px;
+    background-color: #FD590C;
+}
+
+.Hotel-Main {
+    display: flex;
+    gap: 50px;
+}
+
+#p {
+    color: white;
+    font-size: 18px;
+}
+
+.Hotel-Main div {
+    position: relative;
+    width: 390px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.Hotel-Main div button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    background-color: #FD590C;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-weight: bold;
+}
+
+.Testimions {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.Testimions h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.Testimions-Main {
+    display: flex;
+    gap: 30px;
+    padding-left: 150px;
+}
+
+.Testimions-Main-inside {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #FFF7F5;
+    justify-content: center;
+    padding: 35px;
+    gap: 60px;
+    border-radius: 10px;
+}
+
+.Testimions-star {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Testimions-bottom {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footer-top {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 100px;
+}
+
+.footer-top ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 12px;
+}
+
+.footer-top-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-top-div div {
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.footer-top-div div input {
+    width: 250px;
+    height: 40px;
+    text-indent: 5px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.footer-top-div div button {
+    width: 120px;
+    height: 40px;
+    background-color: #FD590C;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer-top-div small {
+    width: 300px;
+
+}
+.footer-bottom{
+    width: 100%;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 15vh;
+}
